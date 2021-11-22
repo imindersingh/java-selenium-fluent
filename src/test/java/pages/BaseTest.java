@@ -1,7 +1,5 @@
 package pages;
 
-import driver.DriverFactory;
-
 import org.fluentlenium.adapter.junit.FluentTest;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

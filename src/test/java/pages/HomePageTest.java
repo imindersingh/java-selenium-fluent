@@ -10,7 +10,7 @@ public class HomePageTest extends BaseTest {
 
     @Test
     public void closeBannerDisplaysHome() {
-        goTo(homePage).window().maximize();
+        goTo(homePage).assertBannerHeading();
         homePage.clickCloseButton();
     }
 }
